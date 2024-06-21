@@ -74,7 +74,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
 
-        <form class="form-horizontal" id="submitAdminForm" action="php_action/createAdmin.php" method="POST">
+        <form class="form-horizontal" id="submitAdminForm" action="action/createAdmin.php" method="POST">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title"><i class="fa fa-plus"></i> Add Admin</h4>
@@ -125,7 +125,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
 
-        <form class="form-horizontal" id="editAdminForm" action="php_action/editAdmin.php" method="POST">
+        <form class="form-horizontal" id="editAdminForm" action="action/editAdmin.php" method="POST">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title"><i class="fa fa-edit"></i> Edit Admin</h4>

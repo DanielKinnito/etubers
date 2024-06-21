@@ -58,7 +58,7 @@ $(document).ready(function() {
         var adminID = $(this).data('id');
 
         $.ajax({
-            url: 'php_action/removeAdmin.php',
+            url: 'action/removeAdmin.php',
             type: 'post',
             data: { adminID: adminID },
             dataType: 'json',
