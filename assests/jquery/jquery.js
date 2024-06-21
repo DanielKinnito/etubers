@@ -6491,5 +6491,7 @@ function vendorPropName( style, name ) {
 }
 
 function showHide( elements, show ) {
-	var display, elem, hidden
+	var display
+	var elem
+	var hidden
 }
