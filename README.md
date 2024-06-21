@@ -22,18 +22,17 @@ Etubers is a platform that provides a wide range of courses for anyone looking t
 ## Features
 
 - **Course Listings**: Browse and search through a variety of courses.
-- **Enrollment**: Students can enroll in courses and track their progress.
+- **Enrollment**: Students can enroll in courses and contact their teachers.
 - **Admin Dashboard**: Manage student and teacher accounts, course content, and track enrollments.
-- **User Authentication**: Secure login and registration for students and admins.
+- **User Authentication**: Secure login and registration for students, teachers and admins.
 - **Responsive Design**: Accessible on various devices including desktops, tablets, and smartphones.
 
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express
-- **Database**: MongoDB
+- **Backend**: php
+- **Database**: mysql
 - **Authentication**: JWT (JSON Web Tokens)
-- **Deployment**: Heroku, Netlify
 
 ## Installation
 
@@ -96,7 +95,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-- **Project Link**: [https://github.com/your-username/etubers](https://github.com/your-username/etubers)
-- **Email**: your-email@example.com
+- **Project Link**: [https://github.com/DanielKinnito/etubers](https://github.com/DanielKinnito/etubers)
+- **Email**: mokonnendaniel@gmail.com
 
 Thank you for visiting Etubers! We hope you find the courses helpful in starting your freelance career.
