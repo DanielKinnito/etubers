@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/checkout.css">
+    </head>
+    <body>
+        <form method="POST" action="https://api.chapa.co/v1/hosted/pay" >
+            <input type="hidden" name="public_key" value="Enter Api key here" />
+            <input type="hidden" name="tx_ref" value="negade-tx-12345678sss9" />
+            <input type="hidden" name="amount" value="100" />
+            <input type="hidden" name="currency" value="ETB" />
+            <input type="hidden" name="email" value="israel@negade.et" />
+            <input type="hidden" name="first_name" value="Israel" />
+            <input type="hidden" name="last_name" value="Goytom" />
+            <input type="hidden" name="title" value="Let us do this" />
+            <input type="hidden" name="description" value="Paying with Confidence with cha" />
+            <input type="hidden" name="logo" value="https://chapa.link/asset/images/chapa_swirl.svg" />
+            <input type="hidden" name="callback_url" value="https://example.com/callbackurl" />
+            <input type="hidden" name="return_url" value="https://example.com/returnurl" />
+            <input type="hidden" name="meta[title]" value="test" />
+
+            <label for="first-name">First Name</label><br>
+            <input type="text" name="first-name" id="first-name"><br>
+            
+            <label for="first-name">Last Name</label><br>
+            <input type="text" name="first-name" id="first-name"><br>
+
+            <label for="first-name">Email</label><br>
+            <input type="text" name="first-name" id="first-name"><br>
+
+            <div><label for="phoneNumber">Phone Number*</label>
+                <div class="mt-1 rounded-3xl overflow-hidden border" style="border-color: rgb(98, 73, 255);">
+                    <div class="text-black pl-4 rounded-3xl PhoneInput">
+                        <div class="PhoneInputCountry">
+                            <select aria-label="Phone number country" class="PhoneInputCountrySelect">
+                                <option value="ET">Ethiopia</option>
+                            </select>
+                            <div aria-hidden="true" class="PhoneInputCountryIcon PhoneInputCountryIcon--border">
+                                <img class="PhoneInputCountryIconImg" alt="Ethiopia" src="https://purecatamphetamine.github.io/country-flag-icons/3x2/ET.svg">
+                            </div>
+                            <div class="PhoneInputCountrySelectArrow"></div>
+                        </div>
+                        <input type="tel" autocomplete="tel" placeholder="Enter phone number" class="PhoneInputInput" value="+251">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <button type="submit">Pay Now</button>
+        </form>
+    </body>
+</html>
