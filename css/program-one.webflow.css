@@ -2,7 +2,7 @@
   --background-color--background-primary: var(--base-color-neutral--black);
   --text-color--text-primary: var(--base-color-neutral--white);
   --link-color--link-primary: var(--base-color-neutral--white);
-  --1-indigo-color--500: #6172f3;
+  --1-indigo-color--500: #354ae8; /*Checkmarks color */
   --1-indigo-color--700: #3538cd;
   --border-color--border-primary: var(--base-color-neutral--white);
   --base-color-neutral--black: black;
